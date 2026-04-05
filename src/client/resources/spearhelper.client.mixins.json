@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.s0ftpulse.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SpearHelperClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

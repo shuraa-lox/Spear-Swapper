@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "spearhelper",
+	"version": "${version}",
+	"name": "SpearHelper",
+	"description": "The mod is helping u to use ur lunge spear simple! @s0ftpulse",
+	"authors": [
+		"s0ftpulse",
+		"shuraa"
+	],
+	"contact": {
+		"homepage": "https://github.com/shuraa-lox"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spearhelper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.s0ftpulse.client.SpearHelperClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
